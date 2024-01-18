@@ -1,0 +1,5 @@
+d = eval(input("Enter your dictionary : "))
+keys = tuple(d.keys())
+values = tuple(d.values())
+inverted_d = dict(zip(values,keys))
+print("Inverted Dictionary",inverted_d)
